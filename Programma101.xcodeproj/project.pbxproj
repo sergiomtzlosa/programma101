@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB3E55E9B72B847792DBF109 /* PCSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E51DB24A492F744C79559CD /* PCSNumber.m */; };
+		A164F687AB9499825966541E /* PCSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E51DB24A492F744C79559CD /* PCSNumber.m */; };
+		3AAA82E1CE84738773CD98D8 /* PCSInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3E663FED74F64D7CADDC5 /* PCSInstruction.m */; };
+		97446BEB31461FAFFD19AB60 /* PCSInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB3E663FED74F64D7CADDC5 /* PCSInstruction.m */; };
+		C9CFCE4851ACD7ED383F776C /* PCSProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AC64CDF1F1E5EDFF20CE89 /* PCSProgram.m */; };
+		AEE01D82AE53C2860C59248D /* PCSProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AC64CDF1F1E5EDFF20CE89 /* PCSProgram.m */; };
+		A1BCD9D1B7F977CC0990CFEC /* PCSCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3A646D7EB63EDE8B2E380 /* PCSCard.m */; };
+		4C36C73063F04733EE9B0389 /* PCSCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3A646D7EB63EDE8B2E380 /* PCSCard.m */; };
+		C6539537B91AA3A298E930DA /* PCS101Machine.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ED96548C5518444B654530 /* PCS101Machine.m */; };
+		F87AD67D1EE4AB734FE2A9E7 /* PCS101Machine.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ED96548C5518444B654530 /* PCS101Machine.m */; };
+		756AD81903E88050990B2E20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F76C99B975A232F0E485954 /* main.m */; };
+		D9A35166021B7B28FC26B0BF /* PCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB946DC6FBD9FD24023CD7F7 /* PCSAppDelegate.m */; };
+		F139AD195E428D46FE6FCA72 /* PCSMachineWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B11A03DA8D679AE24B1CFD /* PCSMachineWindowController.m */; };
+		F7ECCAFA1573A410893E7888 /* PCSKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D2FDB75556E81E062AFB6F /* PCSKeyboardView.m */; };
+		57D552D95021546ED7F880FF /* PCS101EngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE7C38FB19A323691AE75EA /* PCS101EngineTests.m */; };
+		6C4927DDFA2FE09AF0CEFE95 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD2C16F1FE54E31E99F1C3C /* Cocoa.framework */; };
+		F63F8FBB23A23FB97CC45EE6 /* examples in Resources */ = {isa = PBXBuildFile; fileRef = A2E605EEBDADBADA34DC1293 /* examples */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41CF0444BB2C2BC0407AF336 /* PCSNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCSNumber.h; sourceTree = "<group>"; };
+		4E51DB24A492F744C79559CD /* PCSNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSNumber.m; sourceTree = "<group>"; };
+		8BBDA3387210E73180AFCFBB /* PCSInstruction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCSInstruction.h; sourceTree = "<group>"; };
+		AAB3E663FED74F64D7CADDC5 /* PCSInstruction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSInstruction.m; sourceTree = "<group>"; };
+		ECECE41F5683616010134D89 /* PCSProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCSProgram.h; sourceTree = "<group>"; };
+		30AC64CDF1F1E5EDFF20CE89 /* PCSProgram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSProgram.m; sourceTree = "<group>"; };
+		9CD31C260030A4CB505CA493 /* PCSCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCSCard.h; sourceTree = "<group>"; };
+		2DC3A646D7EB63EDE8B2E380 /* PCSCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSCard.m; sourceTree = "<group>"; };
+		C26F38D7732039D9B21DE5A5 /* PCS101Machine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCS101Machine.h; sourceTree = "<group>"; };
+		51ED96548C5518444B654530 /* PCS101Machine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCS101Machine.m; sourceTree = "<group>"; };
+		7F76C99B975A232F0E485954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76806BBCB6831EACE4BEF369 /* PCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCSAppDelegate.h; sourceTree = "<group>"; };
+		EB946DC6FBD9FD24023CD7F7 /* PCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSAppDelegate.m; sourceTree = "<group>"; };
+		607B081454A9596836780522 /* PCSMachineWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCSMachineWindowController.h; sourceTree = "<group>"; };
+		F6B11A03DA8D679AE24B1CFD /* PCSMachineWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSMachineWindowController.m; sourceTree = "<group>"; };
+		D05DA8AC736A28C121461922 /* PCSKeyboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCSKeyboardView.h; sourceTree = "<group>"; };
+		15D2FDB75556E81E062AFB6F /* PCSKeyboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCSKeyboardView.m; sourceTree = "<group>"; };
+		D76BE393AED47506E6EA937A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE7C38FB19A323691AE75EA /* PCS101EngineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCS101EngineTests.m; sourceTree = "<group>"; };
+		A2E605EEBDADBADA34DC1293 /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = "<group>"; };
+		571CD3829D85311D5626CD79 /* Programma101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Programma101.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE96C569CF148F6020319A8D /* Programma101Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Programma101Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD2C16F1FE54E31E99F1C3C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D21750A42F84E48B0774686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4927DDFA2FE09AF0CEFE95 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DF21B50965763264B75800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		956934E60556FDCE0710C957 = {
+			isa = PBXGroup;
+			children = (
+				594062CEF85BC56A7C7D2674,
+				092DEE1B9E766B1416E25C03,
+				D3A1D7DE1CAC7DE87512B7E2,
+				77AFD2ADB33CF005311C0A74,
+				CC0F68FE2D81F9614883F277,
+			);
+			sourceTree = "<group>";
+		};
+		594062CEF85BC56A7C7D2674 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A74A4537787E24AD52C3FDA9,
+				56A1B566039BA486F2D6DC66,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A74A4537787E24AD52C3FDA9 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				41CF0444BB2C2BC0407AF336 /* PCSNumber.h */,
+				4E51DB24A492F744C79559CD /* PCSNumber.m */,
+				8BBDA3387210E73180AFCFBB /* PCSInstruction.h */,
+				AAB3E663FED74F64D7CADDC5 /* PCSInstruction.m */,
+				ECECE41F5683616010134D89 /* PCSProgram.h */,
+				30AC64CDF1F1E5EDFF20CE89 /* PCSProgram.m */,
+				9CD31C260030A4CB505CA493 /* PCSCard.h */,
+				2DC3A646D7EB63EDE8B2E380 /* PCSCard.m */,
+				C26F38D7732039D9B21DE5A5 /* PCS101Machine.h */,
+				51ED96548C5518444B654530 /* PCS101Machine.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		56A1B566039BA486F2D6DC66 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7F76C99B975A232F0E485954 /* main.m */,
+				76806BBCB6831EACE4BEF369 /* PCSAppDelegate.h */,
+				EB946DC6FBD9FD24023CD7F7 /* PCSAppDelegate.m */,
+				607B081454A9596836780522 /* PCSMachineWindowController.h */,
+				F6B11A03DA8D679AE24B1CFD /* PCSMachineWindowController.m */,
+				D05DA8AC736A28C121461922 /* PCSKeyboardView.h */,
+				15D2FDB75556E81E062AFB6F /* PCSKeyboardView.m */,
+				D76BE393AED47506E6EA937A /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		092DEE1B9E766B1416E25C03 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE7C38FB19A323691AE75EA /* PCS101EngineTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D3A1D7DE1CAC7DE87512B7E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2E605EEBDADBADA34DC1293 /* examples */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		77AFD2ADB33CF005311C0A74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AD2C16F1FE54E31E99F1C3C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC0F68FE2D81F9614883F277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571CD3829D85311D5626CD79 /* Programma101.app */,
+				BE96C569CF148F6020319A8D /* Programma101Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF92D32E5C5A22CDC3CB9A1 /* Programma101 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F7F13C1C4705AA319A1E55 /* Build configuration list for PBXNativeTarget "Programma101" */;
+			buildPhases = (
+				60B664FA58B4A5E03E709960 /* Sources */,
+				8D21750A42F84E48B0774686 /* Frameworks */,
+				26E524A529EA10BFBB700641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Programma101;
+			productName = Programma101;
+			productReference = 571CD3829D85311D5626CD79 /* Programma101.app */;
+			productType = "com.apple.product-type.application";
+		};
+		956A38893B0ADC988E591F95 /* Programma101Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBA201A81E651415B2C13B8 /* Build configuration list for PBXNativeTarget "Programma101Tests" */;
+			buildPhases = (
+				9DF0D4E6E5DFEA0933EF2727 /* Sources */,
+				B4DF21B50965763264B75800 /* Frameworks */,
+				0B3612B7A3A64A56C515FA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Programma101Tests;
+			productName = Programma101Tests;
+			productReference = BE96C569CF148F6020319A8D /* Programma101Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3CF92D32E5C5A22CDC3CB9A1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					956A38893B0ADC988E591F95 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 88354873DD296B70343C9B23 /* Build configuration list for PBXProject "Programma101" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 956934E60556FDCE0710C957;
+			productRefGroup = CC0F68FE2D81F9614883F277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF92D32E5C5A22CDC3CB9A1 /* Programma101 */,
+				956A38893B0ADC988E591F95 /* Programma101Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26E524A529EA10BFBB700641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63F8FBB23A23FB97CC45EE6 /* examples in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3612B7A3A64A56C515FA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60B664FA58B4A5E03E709960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3E55E9B72B847792DBF109 /* PCSNumber.m in Sources */,
+				3AAA82E1CE84738773CD98D8 /* PCSInstruction.m in Sources */,
+				C9CFCE4851ACD7ED383F776C /* PCSProgram.m in Sources */,
+				A1BCD9D1B7F977CC0990CFEC /* PCSCard.m in Sources */,
+				C6539537B91AA3A298E930DA /* PCS101Machine.m in Sources */,
+				756AD81903E88050990B2E20 /* main.m in Sources */,
+				D9A35166021B7B28FC26B0BF /* PCSAppDelegate.m in Sources */,
+				F139AD195E428D46FE6FCA72 /* PCSMachineWindowController.m in Sources */,
+				F7ECCAFA1573A410893E7888 /* PCSKeyboardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF0D4E6E5DFEA0933EF2727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A164F687AB9499825966541E /* PCSNumber.m in Sources */,
+				97446BEB31461FAFFD19AB60 /* PCSInstruction.m in Sources */,
+				AEE01D82AE53C2860C59248D /* PCSProgram.m in Sources */,
+				4C36C73063F04733EE9B0389 /* PCSCard.m in Sources */,
+				F87AD67D1EE4AB734FE2A9E7 /* PCS101Machine.m in Sources */,
+				57D552D95021546ED7F880FF /* PCS101EngineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9072BED24623CD4BD5318C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE1C9ED33C6201F2A13F335A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE4401F1864E6D214ECAB450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/Engine",
+					"$(SRCROOT)/Sources/App",
+				);
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.programma101.emulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF37EF8BEBDCB8D4C98E7CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/Engine",
+					"$(SRCROOT)/Sources/App",
+				);
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.programma101.emulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05EF98B0FEE3C98BD85D8FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/Engine",
+					"$(SRCROOT)/Sources/App",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.programma101.emulator.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F898E1FA96FF8BB36CF67D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/Engine",
+					"$(SRCROOT)/Sources/App",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.programma101.emulator.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88354873DD296B70343C9B23 /* Build configuration list for PBXProject "Programma101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9072BED24623CD4BD5318C4D /* Debug */,
+				BE1C9ED33C6201F2A13F335A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F7F13C1C4705AA319A1E55 /* Build configuration list for PBXNativeTarget "Programma101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4401F1864E6D214ECAB450 /* Debug */,
+				AF37EF8BEBDCB8D4C98E7CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBA201A81E651415B2C13B8 /* Build configuration list for PBXNativeTarget "Programma101Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05EF98B0FEE3C98BD85D8FF1 /* Debug */,
+				9F898E1FA96FF8BB36CF67D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
