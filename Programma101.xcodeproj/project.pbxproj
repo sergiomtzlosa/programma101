@@ -24,6 +24,7 @@
 		57D552D95021546ED7F880FF /* PCS101EngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE7C38FB19A323691AE75EA /* PCS101EngineTests.m */; };
 		6C4927DDFA2FE09AF0CEFE95 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD2C16F1FE54E31E99F1C3C /* Cocoa.framework */; };
 		F63F8FBB23A23FB97CC45EE6 /* examples in Resources */ = {isa = PBXBuildFile; fileRef = A2E605EEBDADBADA34DC1293 /* examples */; };
+		CD78AD1B00E2828345288624 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 08858733E974D1ABB197670D /* AppIcon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		D76BE393AED47506E6EA937A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE7C38FB19A323691AE75EA /* PCS101EngineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCS101EngineTests.m; sourceTree = "<group>"; };
 		A2E605EEBDADBADA34DC1293 /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = "<group>"; };
+		08858733E974D1ABB197670D /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		571CD3829D85311D5626CD79 /* Programma101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Programma101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE96C569CF148F6020319A8D /* Programma101Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Programma101Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD2C16F1FE54E31E99F1C3C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				A2E605EEBDADBADA34DC1293 /* examples */,
+				08858733E974D1ABB197670D /* AppIcon.icns */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F63F8FBB23A23FB97CC45EE6 /* examples in Resources */,
+				CD78AD1B00E2828345288624 /* AppIcon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

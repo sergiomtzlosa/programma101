@@ -51,6 +51,7 @@ for group, files in ((ENGINE_GROUP, engine_files), (APP_GROUP, app_files)):
 
 info_ref = oid("file-info-plist")
 examples_ref = oid("file-examples")
+icon_ref = oid("file-app-icon")
 test_ref = oid("file-test")
 app_product_ref = oid("product-app")
 tests_product_ref = oid("product-tests")
@@ -93,6 +94,9 @@ def pbx_object_lines():
     examples_build = buildfile("examples", "app")
     lines.append("\t\t%s /* examples in Resources */ = {isa = PBXBuildFile; fileRef = %s /* examples */; };"
                  % (examples_build, examples_ref))
+    icon_build = buildfile("AppIcon.icns", "app")
+    lines.append("\t\t%s /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = %s /* AppIcon.icns */; };"
+                 % (icon_build, icon_ref))
     lines.append("/* End PBXBuildFile section */")
     lines.append("")
 
@@ -110,6 +114,8 @@ def pbx_object_lines():
                  % test_ref)
     lines.append("\t\t%s /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = \"<group>\"; };"
                  % examples_ref)
+    lines.append("\t\t%s /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = \"<group>\"; };"
+                 % icon_ref)
     lines.append("\t\t%s /* Programma101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Programma101.app; sourceTree = BUILT_PRODUCTS_DIR; };"
                  % app_product_ref)
     lines.append("\t\t%s /* Programma101Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Programma101Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };"
@@ -191,6 +197,7 @@ def pbx_object_lines():
     lines.append("\t\t\tisa = PBXGroup;")
     lines.append("\t\t\tchildren = (")
     lines.append("\t\t\t\t%s /* examples */," % examples_ref)
+    lines.append("\t\t\t\t%s /* AppIcon.icns */," % icon_ref)
     lines.append("\t\t\t);")
     lines.append("\t\t\tpath = Resources;")
     lines.append("\t\t\tsourceTree = \"<group>\";")
@@ -299,6 +306,7 @@ def pbx_object_lines():
     lines.append("\t\t\tbuildActionMask = 2147483647;")
     lines.append("\t\t\tfiles = (")
     lines.append("\t\t\t\t%s /* examples in Resources */," % examples_build)
+    lines.append("\t\t\t\t%s /* AppIcon.icns in Resources */," % icon_build)
     lines.append("\t\t\t);")
     lines.append("\t\t\trunOnlyForDeploymentPostprocessing = 0;")
     lines.append("\t\t};")
